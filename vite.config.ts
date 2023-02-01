@@ -11,9 +11,6 @@ const config: UserConfig = {
 		watch: {
 			usePolling: true
 		},
-		hmr: {
-			host: 'localhost'
-		}
 	},
 	preview: {
 		host: true

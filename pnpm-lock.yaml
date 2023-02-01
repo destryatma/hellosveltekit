@@ -9,14 +9,20 @@ specifiers:
   eslint: ^8.28.0
   eslint-config-prettier: ^8.5.0
   eslint-plugin-svelte3: ^4.0.0
+  lodash: ^4.17.21
   prettier: ^2.8.0
   prettier-plugin-svelte: ^2.8.1
   svelte: ^3.54.0
   svelte-check: ^3.0.1
+  svelte-emoji: ^1.0.2
   tslib: ^2.4.1
   typescript: ^4.9.3
   vite: ^4.0.0
   vitest: ^0.25.3
+
+dependencies:
+  lodash: 4.17.21
+  svelte-emoji: 1.0.2
 
 devDependencies:
   '@playwright/test': 1.30.0
@@ -1223,6 +1229,10 @@ packages:
     resolution: {integrity: sha512-0KpjqXRVvrYyCsX1swR/XTK0va6VQkQM6MNo7PqW77ByjAhoARA8EfrP1N4+KlKj8YS0ZUCtRT/YUuhyYDujIQ==}
     dev: true
 
+  /lodash/4.17.21:
+    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
+    dev: false
+
   /loupe/2.3.6:
     resolution: {integrity: sha512-RaPMZKiMy8/JruncMU5Bt6na1eftNoo++R4Y+N2FrxkDVTrGvcyzFTsaGif4QTeKESheMGegbhw6iUAq+5A8zA==}
     dependencies:
@@ -1639,6 +1649,10 @@ packages:
       - stylus
       - sugarss
     dev: true
+
+  /svelte-emoji/1.0.2:
+    resolution: {integrity: sha512-vJCBsgrSKZONxBn7ICZxCKzDRaJk7Bi3dALwa3PrIiPS8DP8Fw64N38EuuY90eKNuLmOm4DLNRM+hSeH0V2G5g==}
+    dev: false
 
   /svelte-hmr/0.15.1_svelte@3.55.1:
     resolution: {integrity: sha512-BiKB4RZ8YSwRKCNVdNxK/GfY+r4Kjgp9jCLEy0DuqAKfmQtpL38cQK3afdpjw4sqSs4PLi3jIPJIFp259NkZtA==}
