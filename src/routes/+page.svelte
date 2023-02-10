@@ -17,8 +17,13 @@
 	h1 {
 		text-align: center;
 		color: blueviolet;
+        padding: 20px 10px 20px 10px;
+        border: 1px solid #091540;
+        margin-left: 20%;
+        margin-right: 20%;
 	}
 	div {
 		text-align: center;
+		
 	}
 </style>
